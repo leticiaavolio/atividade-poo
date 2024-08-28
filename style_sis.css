@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: radial-gradient(circle, #DDE255 30%, #F35695 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: beige;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 3rem;
+    color: #F98805;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+label,input{
+    font-family: "Space Grotesk", system-ui;
+    color: #264414;
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #F8DBDB;
+}
+a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Space Grotesk", system-ui;
+    color: #264414;
+}

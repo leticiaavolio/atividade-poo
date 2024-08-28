@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: radial-gradient(circle, #DDE255 30%, #F35695 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: beige;
+    width: 60%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 3rem;
+    color: #F98805;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: "Space Grotesk", system-ui;
+    color: #264414;
+}
+li{
+    background-color: #F8D8D8;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    padding: 5px;
+}
+li:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
